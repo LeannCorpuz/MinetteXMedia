@@ -7,17 +7,17 @@
 
 @font-face {
     font-family: 'CustomFont2';
-    src: url(../font/AmsterdamOne-eZ12l.ttf) format('truetype')    
+    src: url(font/AmsterdamOne-eZ12l.ttf) format('truetype')    
 }
 
 @font-face {
     font-family: 'CustomFont3';
-    src: url(../font/Puffy-gxW55.otf) format('opentype')    
+    src: url(font/Puffy-gxW55.otf) format('opentype')    
 }
 
 @font-face {
     font-family: 'CustomFont4';
-    src: url(../font/Adieu-Regular.ttf) format('truetype')    
+    src: url(font/Adieu-Regular.ttf) format('truetype')    
 }
 
 
