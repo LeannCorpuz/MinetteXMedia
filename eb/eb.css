@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600&display=swap');
+
+
+
+@font-face {
+    font-family: 'CustomFont2';
+    src: url(../font/AmsterdamOne-eZ12l.ttf) format('truetype')    
+}
+
+@font-face {
+    font-family: 'CustomFont3';
+    src: url(../font/Puffy-gxW55.otf) format('opentype')    
+}
+
+@font-face {
+    font-family: 'CustomFont4';
+    src: url(../font/Adieu-Regular.ttf) format('truetype')  
+ }
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+body {
+
+    justify-content: center ;
+    align-items: center ;
+    min-height: 100vh;
+    background: beige;
+}
+
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    color: rgb(0, 0, 0);
+    margin: auto;
+    padding: 10px 10px;
+    background-color: #ffffff;
+    font-family: 'Nunito';
+}
+
+header span{
+    margin-right: 2%;
+}
+
+.logo img{
+    position: relative;
+    top: 15px;
+    right: 50px;
+    width: 100px;
+    height: 100px;
+}
+
+#X{
+    color: #4EA217;
+}
+
+
+.wrapper {
+    margin: 150px auto;
+    width: 90%;
+}
+
+img{
+    width: 100%;
+    height: auto;
+    border: 2px solid white ;
+    border-radius: 10px;
+    margin-right: 15px;
+}
+
+.img1{
+    width: 100%;
+    height: auto;
+    border: 2px solid white ;
+    border-radius: 10px;
+    margin-right: 15px;
+}
+
+
+.img2{
+    width: 33.33%;
+    padding: 2px;
+    float: left;
+    border: 2px solid white ;
+    border-radius: 10px;
+    margin-right: 0px;
+}
+
+
+
+
+.text-box{
+    color: black;
+}
+
+.text-box h1{
+    font-family: 'CustomFont4';
+    font-size: 45px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    margin: 50px;
+}
+
+.text-box p {
+    font-size: 16px;
+    font-family: 'Poppins';
+    line-height: 2.5em;
+    margin-bottom: 30px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 20px;
+    background-color: #4EA217;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+
+ button:hover {
+    background-color: pink;
+}
+
+
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #4EA217;
+    padding: 50px;
+    margin-top: 100px;
+}
+
+  
+  
+.footer-item {
+    flex: 1;
+    text-align: center;
+    font-size: 1.0rem;
+    font-family: 'CustomFont4';
+    display: block;
+}
+
+.footer-item a{
+    text-decoration: none;
+    color: rgb(0, 0, 0)
+}
+
+.footer-item h1{
+    font-size: 0.8rem;
+    line-height: 2rem;
+    font-family: 'Poppins';
+    margin-top: 2%;
+}
+
+.footer-item h2{
+    font-size: 0.7rem;
+    font-family: 'Poppins';
+    margin-top: 1%; 
+}
+
+.footer-item ul a{
+    font-size: 1.0rem;
+    line-height: 2.0rem;
+}
+
+.footer-item1{
+    line-height: normal;
+    text-align: center;
+    font-size: 0.9rem;
+    font-family: 'CustomFont4';
+    
+}
+.footer-item1 h1{
+    font-size: 1.0rem;
+    font-family: 'Poppins';
+}
+
+.footer-item1 a{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #000000;
+    padding: 1px;
+    border-radius: 10px;
+    color: #000000;
+    margin-top: 8%;
+    
+}
+
+.footer-item1:hover a{
+    background-color: pink;
+}
+
+
+.insta a:hover{
+    color: fuchsia;;
+}
+
+.Link a:hover{
+    color: blue;
+}
+
+.google a:hover{
+    color: red;
+}
