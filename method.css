@@ -1,0 +1,545 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600&display=swap');
+
+
+
+@font-face {
+    font-family: 'CustomFont2';
+    src: url(font/AmsterdamOne-eZ12l.ttf) format('truetype')    
+}
+
+@font-face {
+    font-family: 'CustomFont3';
+    src: url(font/Puffy-gxW55.otf) format('opentype')    
+}
+
+@font-face {
+    font-family: 'CustomFont4';
+    src: url(font/Adieu-Regular.ttf) format('truetype')    
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #f5f5dc;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    color: rgb(0, 0, 0);
+    margin: auto;
+    padding: 10px 10px;
+    background-color: #ffffff;
+    font-family: 'Nunito';
+}
+
+header span{
+    margin-right: 2%;
+}
+
+.logo img{
+    position: relative;
+    top: 15px;
+    right: 50px;
+    width: 100px;
+    height: 100px;
+}
+
+#X{
+    color: #4EA217;
+}
+
+.one{
+    font-size: 1.56rem;
+    line-height: 3.0rem;
+    padding: 50px;
+    text-align: center;
+    font-style: italic;
+    
+}
+
+.one span {
+    font-style: italic;
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+.Exploration{
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 100px;
+    font-family: 'CustomFont4';
+}
+
+.Exploration p{
+    font-size: 1.3rem;
+    line-height: 3.0rem;
+    margin-top: 30px;
+    font-family: 'Poppins';
+}
+
+.Exploration span{
+    position: relative;
+}
+
+.Exploration span::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #4EA217;
+    transform-origin: bottom right;
+    transition: transform 0.2s ease-out;
+}
+
+.Exploration span:hover::after{
+    transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+
+
+.ICD {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 100px;
+    font-family: 'CustomFont4';
+}
+
+.ICD p{
+    font-size: 1.3rem;
+    line-height: 3.0rem;
+    margin-top: 30px;
+    font-family: 'Poppins';
+}
+
+.ICD span{
+    position: relative;
+}
+
+.ICD span::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #4EA217;
+    transform-origin: bottom right;
+    transition: transform 0.2s ease-out;
+}
+
+.ICD span:hover::after{
+    transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.DM {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 100px;
+    font-family: 'CustomFont4';
+}
+
+.DM p{
+    font-size: 1.3rem;
+    line-height: 3.0rem;
+    margin-top: 30px;
+    font-family: 'Poppins';
+}
+
+.DM span{
+    position: relative;
+}
+
+.DM span::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #4EA217;
+    transform-origin: bottom right;
+    transition: transform 0.2s ease-out;
+}
+
+.DM span:hover::after{
+    transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.PT{
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 100px;
+    font-family: 'CustomFont4';
+}
+
+.PT p{
+    font-size: 1.3rem;
+    line-height: 3.0rem;
+    margin-top: 30px;
+    font-family: 'Poppins';
+}
+
+.PT span{
+    position: relative;
+}
+
+.PT span::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #4EA217;
+    transform-origin: bottom right;
+    transition: transform 0.2s ease-out;
+}
+
+.PT span:hover::after{
+    transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+
+.button a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    border: 4px solid #4EA217;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.button a:hover{
+    background-color: pink;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    font-family: 'CustomFont4';
+}
+
+.package{
+    background: white;
+    padding-top: 5%;
+   
+}
+
+ .package span{
+    position: relative;
+    left: 5%;
+    font-size: 35px;
+    font-family: 'CustomFont2';
+    background: linear-gradient(to left, #f69ec4, #f9dd94 100%);
+    background-position: 0 100%;
+    background-size: 100% 5px;
+    background-repeat: repeat-x;
+    
+   
+}
+
+.SC{
+    box-sizing: border-box;
+    margin-left: 480px;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+.SC h1{
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    font-family: 'CustomFont4';
+}
+
+.SC h2{
+    font-size: 1.0rem;
+    margin-bottom: 10px;
+    font-family: 'CustomFont4';
+    border-left: 3px solid black;
+    padding: 5px;
+}
+
+.SC h3{
+    font-size: 16px;
+    margin-left: 8%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-style: italic;
+}
+
+.SC p{
+    font-size: 0.8rem;
+    line-height: 1.6rem;
+    font-family: 'Poppins';
+}
+
+.EL{
+    box-sizing: border-box;
+    margin-left: 480px ;
+    margin-bottom: 5%;
+}
+
+.EL h1{
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    font-family: 'CustomFont4';
+}
+
+.EL h2{
+    font-size: 1.0rem;
+    margin-bottom: 10px;
+    font-family: 'CustomFont4';
+    border-left: 3px solid;
+    padding: 5px
+}
+
+.EL h3{
+    font-size: 16px;
+    margin-left: 8%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-style: italic;
+}
+
+.EL p{
+    font-size: 0.8rem;
+    line-height: 1.6rem;
+    font-family: 'Poppins';
+}
+
+.PS{
+    box-sizing: border-box;
+    margin-left: 480px;
+    margin-bottom: 5%;
+}
+
+.PS h1{
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    font-family: 'CustomFont4';
+}
+
+.PS h2{
+    font-size: 1.0rem;
+    margin-bottom: 10px;
+    font-family: 'CustomFont4';
+    border-left: 3px solid black;
+    padding: 5px;
+}
+
+.PS h3{
+    font-size: 16px;
+    margin-left: 8%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-style: italic;
+}
+
+.PS p{
+    font-size: 0.8rem;
+    line-height: 1.6rem;
+    font-family: 'Poppins';
+}
+
+
+.collapsible-container {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    margin-top: 20px;
+    font-style: italic;
+    
+}
+  
+.collapsible-toggle {
+   display: none;
+}
+  
+ .collapsible-label {
+    display: block;
+    background-color: #f0f0f0;
+    padding: 10px;
+    cursor: pointer;
+    border: 1px solid #4EA217;
+    position: relative;
+    background-color: beige;
+    width: 300px;
+  }
+  
+  .collapsible-label::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    border-style: solid;
+    border-width: 6px 6px 0 6px;
+    border-color: #666 transparent transparent transparent;
+  }
+  
+  .collapsible-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+    background-color: #ffffff;
+    border: 1px solid #4EA217;
+    border-top: none;
+    width: 300px;
+   
+  }
+
+
+
+  .collapsible-toggle:checked ~ .collapsible-content {
+    max-height: 1000px; /* Adjust to a sufficient value to reveal the content */
+  }
+
+
+.collapsible-containers a{
+    text-decoration: none;
+    color: black;
+    border:1px solid #7ad63c;
+    border-radius: 10px;
+    padding: 7px;
+    margin: 10px;
+    font-size: 1.1rem;
+    margin-left: 8%;
+    font-family: 'Dancing Script' ;
+    font-weight: 600;
+}
+
+.collapsible-containers a:hover{
+    background-color: pink;
+}
+
+
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #4EA217;
+    padding: 50px;
+    margin-top: 100px;
+}
+
+  
+  
+.footer-item {
+    flex: 1;
+    text-align: center;
+    font-size: 1.0rem;
+    font-family: 'CustomFont4';
+    display: block;
+}
+
+.footer-item a{
+    text-decoration: none;
+    color: rgb(0, 0, 0)
+}
+
+.footer-item h1{
+    font-size: 0.8rem;
+    line-height: 2rem;
+    font-family: 'Poppins';
+    margin-top: 2%;
+}
+
+.footer-item h2{
+    font-size: 0.7rem;
+    font-family: 'Poppins';
+    margin-top: 1%; 
+}
+
+.footer-item ul a{
+    font-size: 1.0rem;
+    line-height: 2.0rem;
+}
+
+.footer-item1{
+    line-height: normal;
+    text-align: center;
+    font-size: 0.9rem;
+    font-family: 'CustomFont4';
+    
+}
+.footer-item1 h1{
+    font-size: 1.0rem;
+    font-family: 'Poppins';
+}
+
+.footer-item1 a{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #000000;
+    padding: 1px;
+    border-radius: 10px;
+    color: #000000;
+    margin-top: 8%;
+    
+}
+
+.footer-item1 a:hover{
+    background-color: pink;
+}
+
+#slideshow {
+    position: relative;
+    width: 100%;
+    height: 500px; /* Adjust height as needed */
+    overflow: hidden;
+  }
+  
+  #slideshow img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure images fill the container */
+    transition: opacity 0.5s ease; /* Add transition effect */
+  }
+  
+  .insta a:hover{
+    color: fuchsia;;
+}
+
+.Link a:hover{
+    color: blue;
+}
+
+.google a:hover{
+    color: red;
+}
+
+.footer-item1 a:hover{
+    background-color: pink;
+}
